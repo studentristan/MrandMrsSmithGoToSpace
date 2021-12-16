@@ -1,0 +1,76 @@
+div > #main {
+  width: 100%;
+}
+
+h1 {
+  font-family: GaramondPro, georgia, serif;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+h1 span {
+  color: red;
+}
+
+h2, h3, p {
+	font-family: Helvetica, Arial, Lucida, sans-serif;
+	font-weight: 300;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h2, p {
+  font-size: .5rem;
+}
+
+h3 {
+  font-size: .75rem;
+  font-weight: bold;
+}
+
+#chick {
+  float: left;
+  width: 25%;
+  margin: 0 0 0 0;
+}
+
+#dude {
+  float: right;
+  width: 25%;
+  margin: 0 0 0 0;
+}
+
+#gunfight {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2, p {
+    font-size: .75rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+}
+
+@media (min-width: 800px) {
+  h1 {
+    font-size: 3.25rem;
+  }
+
+  h2, p {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+}
